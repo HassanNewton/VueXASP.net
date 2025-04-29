@@ -14,7 +14,7 @@ export default {
 };
 </script>
 
-<style>
+<!-- <style>
 #app {
   display: flex;
   padding-bottom: 30%;
@@ -28,5 +28,24 @@ export default {
 }
 body {
   background-color: blanchedalmond;
+}
+</style> -->
+
+<style>
+body {
+  margin: 0;
+  background-image: url("src/resources/wood.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
 }
 </style>
